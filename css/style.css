@@ -132,7 +132,7 @@ footer{
   box-sizing: border-box;
   min-height: 75px;
   bottom: 0;
-  margin-left: 0;
+  left: 0;
   align-self: center;
   position: fixed;
   background:#000000;
