@@ -79,7 +79,8 @@ th{
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
-  position: center;
+  text-align: center;
+  vertical-align: center;
   text-transform: uppercase;
   background-color: #7e0825;
 }
@@ -94,11 +95,12 @@ table{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50px;
+    border-spacing: 0;
 }
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
-thead tr:first-child th:first-child{
+thead tr:first-child th:first-child {
   border-top-left-radius: 50px;
 }
 
@@ -127,9 +129,11 @@ tr:nth-child(even) {
 
 footer{
   width:100%;
+  box-sizing: border-box;
   min-height: 75px;
   bottom: 0;
-  left: 0;
+  margin-left: 0;
+  align-self: center;
   position:absolute;
   background:#000000;
   text-align:center;
