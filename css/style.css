@@ -29,7 +29,7 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
-  background: url('../images/pigeon-background.JPEG');
+  background: url('../images/pigeon-background.jpeg');
   background-color: #DDDDDD;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,7 +59,7 @@ a{
 
 /*Req 5*/
 /*Add selector and rule here*/
-:focus {
+*:focus {
   border: dashed;
   border-width: 3px;
   border-color: #417243;
@@ -117,14 +117,14 @@ tbody tr:last-child td:last-child {
 }
 
 /*Add selectors and rules here*/
-tr:hover {
+table tr:hover {
   background-color: rgba(126, 8, 37, 0.25);
 }
 tr:nth-child(odd) {
-  background: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 tr:nth-child(even) {
-  background: #D1D1D1;
+  background-color: #D1D1D1;
 }
 
 footer{
@@ -133,6 +133,7 @@ footer{
   min-height: 75px;
   bottom: 0;
   left: 0;
+  margin-left: 0;
   align-self: center;
   position: fixed;
   background:#000000;
