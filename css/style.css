@@ -134,7 +134,7 @@ footer{
   bottom: 0;
   margin-left: 0;
   align-self: center;
-  position:absolute;
+  position: fixed;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
